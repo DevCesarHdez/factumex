@@ -1,6 +1,7 @@
 import Header from './Header'
 import Likes from './Likes'
 import ContactUs from './ContactUs'
+import TableUsers from './TableUsers'
 import useTitlePage from '@/hooks/useTitlePage'
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <TableUsers />
       <Likes />
       <ContactUs />
     </>
